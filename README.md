@@ -1,5 +1,5 @@
 # Forward-Client
-This is Telegram Messages Forwarder bot by [@AbirHasan2005](https://github.com/AbirHasan2005).
+This is Telegram Messages Forwarder bot by [@rmsq89](https://github.com/rmsq89/Forward-Client).
 
 Use this at your own risk. I will not be responsible for any kind of issue while using this! Better use a different Telegram Account instead of using Main Telegram Account.
 
