@@ -1,6 +1,4 @@
-# (c) @AbirHasan2005 | Thomas Shelby
-# This is Telegram Messages Forwarder UserBot!
-# Use this at your own risk. I will not be responsible for any kind of issue while using this!
+
 
 import os
 import sys
@@ -35,7 +33,7 @@ async def main(client: Client, message: Message):
     if (message.text == "!start") and message.from_user.is_self:
         if not RUN["isRunning"]:
             RUN["isRunning"] = True
-        await message.edit(text=f"Hi, **{(await client.get_me()).first_name}**!\nThis is a Forwarder Userbot by @AbirHasan2005", parse_mode="Markdown",
+        await message.edit(text=f"Hi, **{(await client.get_me()).first_name}**!\nThis is a Forwarder Userbot", parse_mode="Markdown",
                            disable_web_page_preview=True)
     elif (message.text == "!stop") and message.from_user.is_self:
         RUN["isRunning"] = False
